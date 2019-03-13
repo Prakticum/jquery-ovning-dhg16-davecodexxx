@@ -44,6 +44,11 @@ body {
   background: salmon;
   padding: 20px;
 }
+var ready = require('document-ready')
+
+ready(function () {
+  //=> DOM is ready
+})
 
 /***
 TYPE
